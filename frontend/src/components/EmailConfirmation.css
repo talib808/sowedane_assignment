@@ -1,0 +1,28 @@
+
+.email-confirmation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  background-color: #f0f0f0; 
+}
+
+
+.email-confirmation.success {
+  color: #008000; 
+}
+
+
+.email-confirmation.error {
+  color: #ff0000; 
+}
+
+.email-confirmation p {
+  font-size: 24px; 
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+
+
